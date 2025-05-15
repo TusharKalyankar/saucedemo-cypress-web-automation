@@ -1,0 +1,28 @@
+{
+  "name": "saucedemoshopping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome": "npx cypress run --browser chrome",
+    "edge": "npx cypress run --browser edge",
+    "firefox": "npx cypress run --browser firefox",
+    "allBrowsers": "npm run chrome && npm run edge && npm run firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "^14.3.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress-on-fix": "^1.1.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
